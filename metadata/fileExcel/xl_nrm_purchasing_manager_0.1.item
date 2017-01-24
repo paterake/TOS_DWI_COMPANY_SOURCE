@@ -26,8 +26,8 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e4uJXEeaXR5hl6b_YSQ" label="email_url" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e4-JXEeaXR5hl6b_YSQ" label="company_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5OJXEeaXR5hl6b_YSQ" label="title" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5eJXEeaXR5hl6b_YSQ" label="firstname" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5uJXEeaXR5hl6b_YSQ" label="surname" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5eJXEeaXR5hl6b_YSQ" label="first_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5uJXEeaXR5hl6b_YSQ" label="last_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e5-JXEeaXR5hl6b_YSQ" label="job_title" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e6OJXEeaXR5hl6b_YSQ" label="address_1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e6eJXEeaXR5hl6b_YSQ" label="address_2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
