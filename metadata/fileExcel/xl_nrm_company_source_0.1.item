@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:FileExcelConnection xmi:id="_CNOnwOPqEeaECbAqecL4BQ" name="xl_nrm_manager" label="xl_nrm_manager" dataPackage="_uW2e4OJXEeaXR5hl6b_YSQ" Server="Localhost 127.0.0.1" FilePath="/home/rakesh/Documents/__data/datawiseintel/company_sources/2,300 Purchasing Managers.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+  <TalendMetadata:FileExcelConnection xmi:id="_nFBagOf-Eea59uSbakdHRw" name="xl_nrm_company_source" label="xl_nrm_company_source" dataPackage="_uW2e4OJXEeaXR5hl6b_YSQ" Server="Localhost 127.0.0.1" FilePath="/home/rakesh/Documents/__data/datawiseintel/company_sources/nrm_company_source.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
     <sheetColumns>A</sheetColumns>
     <sheetColumns>B</sheetColumns>
     <sheetColumns>C</sheetColumns>
@@ -20,8 +20,9 @@
     <sheetColumns>Q</sheetColumns>
     <sheetColumns>R</sheetColumns>
     <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
   </TalendMetadata:FileExcelConnection>
-  <orgomg.cwm.resource.record:RecordFile xmi:id="_uW2e4OJXEeaXR5hl6b_YSQ" name="default" dataManager="_CNOnwOPqEeaECbAqecL4BQ">
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uW2e4OJXEeaXR5hl6b_YSQ" name="default" dataManager="_nFBagOf-Eea59uSbakdHRw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uW2e4eJXEeaXR5hl6b_YSQ" id="_Ov5fQOJXEeaXR5hl6b_YSQ" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e4uJXEeaXR5hl6b_YSQ" label="email_url" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e4-JXEeaXR5hl6b_YSQ" label="company_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
