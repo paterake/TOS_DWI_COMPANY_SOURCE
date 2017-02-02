@@ -40,6 +40,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e7eJXEeaXR5hl6b_YSQ" label="post_code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e7uJXEeaXR5hl6b_YSQ" label="short_post_code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e7-JXEeaXR5hl6b_YSQ" label="telephone_no" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ERtDgOklEeapMtjNm6NKFw" name="fax_no" label="fax_no" length="255" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e8OJXEeaXR5hl6b_YSQ" label="website_url" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e8eJXEeaXR5hl6b_YSQ" label="employee_count" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uW2e8uJXEeaXR5hl6b_YSQ" label="turnover_amt" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
