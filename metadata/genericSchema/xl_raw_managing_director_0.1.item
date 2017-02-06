@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_zliJoOxwEea-XZCQldDQKg" dataPackage="_zliJoexwEea-XZCQldDQKg"/>
+  <TalendMetadata:GenericPackage xmi:id="_zliJoexwEea-XZCQldDQKg" dataManager="_zliJoOxwEea-XZCQldDQKg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zliJouxwEea-XZCQldDQKg" id="_zlcqEOxwEea-XZCQldDQKg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJo-xwEea-XZCQldDQKg" name="email_url" label="email_url" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJpOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJpexwEea-XZCQldDQKg" name="company_name" label="company_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJpuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJp-xwEea-XZCQldDQKg" name="title" label="title" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJqOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJqexwEea-XZCQldDQKg" name="first_name" label="first_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJquxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJq-xwEea-XZCQldDQKg" name="last_name" label="last_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJrOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJrexwEea-XZCQldDQKg" name="job_type" label="job_type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJruxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJr-xwEea-XZCQldDQKg" name="Address_1" label="Address_1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJsOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJsexwEea-XZCQldDQKg" name="Address_2" label="Address_2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJsuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJs-xwEea-XZCQldDQKg" name="Address_3" label="Address_3" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJtOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJtexwEea-XZCQldDQKg" name="town_city" label="town_city" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJtuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJt-xwEea-XZCQldDQKg" name="county" label="county" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJuOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJuexwEea-XZCQldDQKg" name="post_code" label="post_code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJuuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJu-xwEea-XZCQldDQKg" name="telephone_no" label="telephone_no" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJvOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJvexwEea-XZCQldDQKg" name="web_url" label="web_url" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJvuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJv-xwEea-XZCQldDQKg" name="employee_count" label="employee_count" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJwOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJwexwEea-XZCQldDQKg" name="turnover_amt" label="turnover_amt" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJwuxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJw-xwEea-XZCQldDQKg" name="business_type" label="business_type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJxOxwEea-XZCQldDQKg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zliJxexwEea-XZCQldDQKg" name="sector_type" label="sector_type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zliJxuxwEea-XZCQldDQKg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

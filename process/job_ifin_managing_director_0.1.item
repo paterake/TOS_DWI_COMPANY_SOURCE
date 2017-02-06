@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/home/rakesh/Documents/__code/talend/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_8Rqe0OJVEeaXR5hl6b_YSQ" name="DataOperation"/>
+    <routinesParameter id="_8RzBsOJVEeaXR5hl6b_YSQ" name="Mathematical"/>
+    <routinesParameter id="_8RsUAOJVEeaXR5hl6b_YSQ" name="Numeric"/>
+    <routinesParameter id="_8RuJMOJVEeaXR5hl6b_YSQ" name="Relational"/>
+    <routinesParameter id="_8Rv-YOJVEeaXR5hl6b_YSQ" name="StringHandling"/>
+    <routinesParameter id="_8RxMgOJVEeaXR5hl6b_YSQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_8RVHoOJVEeaXR5hl6b_YSQ" name="TalendDate"/>
+    <routinesParameter id="_8R024OJVEeaXR5hl6b_YSQ" name="TalendString"/>
+    <routinesParameter id="_41zEEOkoEeapMtjNm6NKFw" name="MyStringUtil"/>
+  </parameters>
+  <node componentName="tFileExcelWorkbookOpen" componentVersion="7.2" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookOpen_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ownYgOmREeaL9s5uGNjw_w" show="false"/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_WORKBOOK" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/rakesh/Documents/__data/datawiseintel/company_sources/153,000 MDs.xlsx&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SPREADSHEET_TYPE" value="XLS" show="false"/>
+    <elementParameter field="LABEL" name="CONFIGTEXT" value="The memory saving mode currently applies only to the writing of large files, not to the reading!"/>
+    <elementParameter field="CHECK" name="CREATE_STREAMING_WORKBOOK" value="true"/>
+    <elementParameter field="CHECK" name="DIE_IF_FILE_NOT_EXISTS" value="true"/>
+    <elementParameter field="CHECK" name="DECRYPT_FILE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="PASSWORD" value="&quot;secret&quot;" show="false"/>
+    <elementParameter field="CHECK" name="REGISTER_BACKPORT_FUNCTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FUNCTION_ADDONS"/>
+    <elementParameter field="CHECK" name="USE_DEFAULT_XML_PARSER" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="xl_raw_managing_director"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileExcelSheetInput" componentVersion="6.8" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelSheetInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ownYgOmREeaL9s5uGNjw_w" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="WORKBOOK" value="tFileExcelWorkbookOpen_1"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_ownYgOmREeaL9s5uGNjw_w - metadata" show="false"/>
+    <elementParameter field="TEXT" name="SHEET_NAME" value="0"/>
+    <elementParameter field="TEXT" name="ROW_START_INDEX" value="1"/>
+    <elementParameter field="TEXT" name="ROW_STOP_INDEX" value=""/>
+    <elementParameter field="CHECK" name="STOP_AT_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="SKIP_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="USE_COLUMN_POSITIONING" value="false"/>
+    <elementParameter field="CHECK" name="CONFIG_COLUMN_BY_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="CONFIG_HEADER_BY_REGEX" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_ROW_INDEX" value="1" show="false"/>
+    <elementParameter field="TEXT" name="COLUMN_START_INDEX" value="1"/>
+    <elementParameter field="TABLE" name="COLUMN_CONFIG" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="email_url"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="company_name"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="title"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="job_type"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_1"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_2"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_3"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="town_city"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="county"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="post_code"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="telephone_no"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="web_url"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="employee_count"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="turnover_amt"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="business_type"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sector_type"/>
+      <elementValue elementRef="POSITION" value=""/>
+      <elementValue elementRef="HEADER_NAME" value=""/>
+      <elementValue elementRef="IGNORE_MISSING" value="false"/>
+      <elementValue elementRef="READ_COMMENT" value="false"/>
+      <elementValue elementRef="KEEP_LAST" value="false"/>
+      <elementValue elementRef="IGNORE_ERROR" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="NUMBERFORMAT_LOCALE" value="&quot;en&quot;"/>
+    <elementParameter field="CHECK" name="USE_GROUPING" value="true"/>
+    <elementParameter field="CHECK" name="RETURN_LINK" value="false"/>
+    <elementParameter field="CHECK" name="ADD_LINK_TO_LABEL" value="false" show="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="email_url"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="company_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="title"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="job_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="town_city"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="county"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="post_code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="telephone_no"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="web_url"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="employee_count"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="turnover_amt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="business_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sector_type"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="xl_raw_managing_director"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileExcelSheetInput_1">
+      <column comment="" key="false" length="255" name="email_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="company_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="job_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Address_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Address_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Address_3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="town_city" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="county" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="telephone_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="web_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="employee_count" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="turnover_amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="business_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="sector_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value="&quot;/home/rakesh/temp&quot;"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_32-ToOmREeaL9s5uGNjw_w-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="row_out_nrm">
+      <column comment="" key="false" length="255" name="email_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="company_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="job_title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="town_city" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="county" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="short_post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="telephone_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="fax_no" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="website_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="employee_count" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="turnover_amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="business_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="business_sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="company_source" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="row_out_nrm">
+        <mapperTableEntries name="email_url" expression="row1.email_url" type="id_String" nullable="true"/>
+        <mapperTableEntries name="company_name" expression="row1.company_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="title" expression="row1.title" type="id_String" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="row1.first_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" expression="row1.last_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="job_title" expression="row1.job_type " type="id_String" nullable="true"/>
+        <mapperTableEntries name="address_1" expression="row1.Address_1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address_2" expression="row1.Address_2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address_3" expression="row1.Address_3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="town_city" expression="row1.town_city" type="id_String" nullable="true"/>
+        <mapperTableEntries name="county" expression="row1.county" type="id_String" nullable="true"/>
+        <mapperTableEntries name="post_code" expression="row1.post_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="short_post_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="telephone_no" expression="row1.telephone_no" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fax_no" type="id_String" nullable="true"/>
+        <mapperTableEntries name="website_url" expression="row1.web_url " type="id_String" nullable="true"/>
+        <mapperTableEntries name="employee_count" expression="row1.employee_count" type="id_String" nullable="true"/>
+        <mapperTableEntries name="turnover_amt" expression="row1.turnover_amt" type="id_String" nullable="true"/>
+        <mapperTableEntries name="business_type" expression="row1.business_type" type="id_String" nullable="true"/>
+        <mapperTableEntries name="business_sector" expression="row1.sector_type " type="id_String" nullable="true"/>
+        <mapperTableEntries name="company_source" expression="&quot;Managing Director&quot;" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="email_url" type="id_String" nullable="true"/>
+        <mapperTableEntries name="company_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="title" type="id_String" nullable="true"/>
+        <mapperTableEntries name="first_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="job_type" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Address_1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Address_2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Address_3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="town_city" type="id_String" nullable="true"/>
+        <mapperTableEntries name="county" type="id_String" nullable="true"/>
+        <mapperTableEntries name="post_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="telephone_no" type="id_String" nullable="true"/>
+        <mapperTableEntries name="web_url" type="id_String" nullable="true"/>
+        <mapperTableEntries name="employee_count" type="id_String" nullable="true"/>
+        <mapperTableEntries name="turnover_amt" type="id_String" nullable="true"/>
+        <mapperTableEntries name="business_type" type="id_String" nullable="true"/>
+        <mapperTableEntries name="sector_type" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_TJTWEOjGEea8DNGARCQWjw" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/rakesh/Documents/__data/datawiseintel/company_sources/nrm_company_source.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_TJTWEOjGEea8DNGARCQWjw - metadata" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;US-ASCII&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="csv_nrm_company_source"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="255" name="email_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="company_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="job_title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="address_3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="town_city" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="county" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="short_post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="telephone_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="fax_no" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="website_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="employee_count" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="turnover_amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="business_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="business_sector" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="company_source" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileExcelWorkbookOpen_1" offsetLabelX="0" offsetLabelY="0" source="tFileExcelWorkbookOpen_1" target="tFileExcelSheetInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileExcelSheetInput_1" offsetLabelX="0" offsetLabelY="0" source="tFileExcelSheetInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row_out_nrm" lineStyle="0" metaname="row_out_nrm" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row_out_nrm" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookOpen_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelSheetInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

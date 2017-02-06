@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_E69kYOxxEea-XZCQldDQKg" name="csv_raw_managing_director" dataPackage="_E69kYexxEea-XZCQldDQKg" Server="Localhost 127.0.0.1" FilePath="/home/rakesh/Documents/__data/datawiseintel/company_sources/153,000 MDs.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_E69kYexxEea-XZCQldDQKg" name="default" dataManager="_E69kYOxxEea-XZCQldDQKg"/>
+</xmi:XMI>
