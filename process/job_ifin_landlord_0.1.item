@@ -306,7 +306,7 @@
         <mapperTableEntries name="turnover_amt" type="id_String" nullable="true"/>
         <mapperTableEntries name="business_type" type="id_String" nullable="true"/>
         <mapperTableEntries name="business_sector" type="id_String" nullable="true"/>
-        <mapperTableEntries name="company_source" type="id_String" nullable="true"/>
+        <mapperTableEntries name="company_source" expression="&quot;Landlord&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="title" type="id_String" nullable="true"/>

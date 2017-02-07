@@ -301,6 +301,7 @@
       <column comment="" key="false" length="255" name="post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="short_post_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="telephone_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="fax_no" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="website_url" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="employee_count" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="turnover_amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -326,6 +327,7 @@
         <mapperTableEntries name="post_code" expression="row1.Postcode" type="id_String" nullable="true"/>
         <mapperTableEntries name="short_post_code" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="telephone_no" expression="row1.Tel_No" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fax_no" type="id_String" nullable="true"/>
         <mapperTableEntries name="website_url" expression="row1.Web_Site" type="id_String" nullable="true"/>
         <mapperTableEntries name="employee_count" expression="row1.Employees" type="id_String" nullable="true"/>
         <mapperTableEntries name="turnover_amt" expression="row1.Turnover" type="id_String" nullable="true"/>
@@ -418,6 +420,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row_out_nrm" lineStyle="0" metaname="row_out_nrm" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="fax_no"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row_out_nrm" show="false"/>
   </connection>

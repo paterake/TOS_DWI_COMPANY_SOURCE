@@ -108,9 +108,9 @@
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_nsJcoOx3Eea-XZCQldDQKg" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_K4tKkO00Eea1xqTDy35VPg" show="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/rakesh/Documents/__data/datawiseintel/company_sources/1735 Small BL Somerset Cos.xlsx&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/rakesh/Documents/__data/datawiseintel/company_sources/1768 Small BL Cornwall Cos.xlsx&quot;"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;Overall&quot;"/>
@@ -750,7 +750,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_apeo0Ox9EeaQZ71XKLSHpg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_wWpLsO00Eea1xqTDy35VPg-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
@@ -804,7 +804,7 @@
         <mapperTableEntries name="turnover_amt" expression="row1.Alg_Sales " type="id_String" nullable="true"/>
         <mapperTableEntries name="business_type" type="id_String" nullable="true"/>
         <mapperTableEntries name="business_sector" type="id_String" nullable="true"/>
-        <mapperTableEntries name="company_source" expression="&quot;Business Line Somerset&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="company_source" expression="&quot;Business Line Cornwall&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Business_Link_Selection" type="id_Integer" nullable="true"/>
